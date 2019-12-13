@@ -1,0 +1,1 @@
+console.info("test/test3.js");
