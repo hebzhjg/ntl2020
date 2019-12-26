@@ -1,1 +1,66 @@
-<mxfile host="www.draw.io" modified="2019-12-26T00:44:56.130Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.4.3" etag="L0pVfDuIu3yNEdJGfTx_" type="github"><diagram id="vW_eVv8WTYtpluYeXxiM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-26T00:53:54.695Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="M2quNJwDB8caKla6cJ1j" version="12.4.3" type="github" pages="2">
+  <diagram id="vW_eVv8WTYtpluYeXxiM" name="总架构">
+    <mxGraphModel dx="865" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E8vyjqeyWM7nioA_rI5F-1" target="E8vyjqeyWM7nioA_rI5F-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E8vyjqeyWM7nioA_rI5F-1" target="E8vyjqeyWM7nioA_rI5F-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-1" value="门诊电子病历&lt;br&gt;互联网医院" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-2" value="患者端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-3" value="医生端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-6" value="门诊医生工作站" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-1" value="分诊/叫号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="300" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-2" value="注册/建档" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="230" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-3" value="一般性服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="370" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-5" value="病人主索引" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-6" value="医师助手" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-7" value="SOAP&lt;br&gt;门诊病历" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLDHsEK64QPkxu35O8Kw-8" target="VLDHsEK64QPkxu35O8Kw-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLDHsEK64QPkxu35O8Kw-8" target="VLDHsEK64QPkxu35O8Kw-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLDHsEK64QPkxu35O8Kw-8" target="VLDHsEK64QPkxu35O8Kw-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="VLDHsEK64QPkxu35O8Kw-8" value="基础门诊服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="120" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ewop6Ulr_RDadqHz6t3_" name="就诊流程图">
+    <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="N1cMtq0cJJKUzX9mBmlD-0"/>
+        <mxCell id="N1cMtq0cJJKUzX9mBmlD-1" parent="N1cMtq0cJJKUzX9mBmlD-0"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
