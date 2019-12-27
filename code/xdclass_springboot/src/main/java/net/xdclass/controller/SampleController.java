@@ -27,6 +27,8 @@ public class SampleController {
     public Map<String,String> testMap(){
         Map<String,String> map = new HashMap<>();
         map.put("name","hello word");
+        //测试触发热部署，手工方法-保存java代码后，不会热部署
+        //修改触发文件，启动热部署
         return map;
     }
 

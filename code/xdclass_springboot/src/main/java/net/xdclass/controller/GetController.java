@@ -1,8 +1,12 @@
 package net.xdclass.controller;
 
+import net.xdclass.domain.JsonData;
+import net.xdclass.domain.ServerSettings;
 import net.xdclass.domain.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -84,5 +88,27 @@ public class GetController {
         return params;
     }
 
+
+    /**
+     * 让spring管理，并注入对象
+     */
+    @Autowired
+    private ServerSettings serverSettings;
+
+    @GetMapping("/v1/test_properties")
+    public Object testProperties(){
+
+        return serverSettings;
+    }
+
+
+    /**
+     *
+     * @return
+     */
+    @GetMapping("/v1/get_user")
+    public Object testUser(){
+        return new User("hebzhjg",28,"119+119-1234","123456",new Date());
+    }
 
 }
