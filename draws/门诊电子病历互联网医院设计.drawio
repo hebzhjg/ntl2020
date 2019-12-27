@@ -1,9 +1,12 @@
-<mxfile host="www.draw.io" modified="2019-12-27T01:05:35.985Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rx5XlvKTZOJS6FW1MJ_Z" version="12.4.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-27T01:14:17.589Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-YTTfRShn8jjfF35xFu0" version="12.4.3" type="github" pages="3">
   <diagram id="vW_eVv8WTYtpluYeXxiM" name="产品架构">
-    <mxGraphModel dx="1221" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="0qElFQwZOVu8BeHa5V8r-23" value="院内服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="930" y="191" width="170" height="739" as="geometry"/>
+        </mxCell>
         <mxCell id="E8vyjqeyWM7nioA_rI5F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E8vyjqeyWM7nioA_rI5F-1" target="E8vyjqeyWM7nioA_rI5F-2" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -21,11 +24,11 @@
             <mxPoint x="679.8620689655172" y="241" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="E8vyjqeyWM7nioA_rI5F-3" value="医生端&lt;br style=&quot;font-size: 14px;&quot;&gt;门诊工作站" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fontColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="590" y="190" width="350" height="740" as="geometry"/>
+        <mxCell id="E8vyjqeyWM7nioA_rI5F-3" value="医生端&lt;br style=&quot;font-size: 14px;&quot;&gt;门诊工作站" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fontColor=#330000;" parent="1" vertex="1">
+          <mxGeometry x="600" y="190" width="320" height="740" as="geometry"/>
         </mxCell>
         <mxCell id="VLDHsEK64QPkxu35O8Kw-5" value="消息服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="720" width="110" height="80" as="geometry"/>
+          <mxGeometry x="960" y="680" width="110" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="AmJ8R4YjLkJ6c9xOn_9D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VLDHsEK64QPkxu35O8Kw-6" target="VLDHsEK64QPkxu35O8Kw-7" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -39,31 +42,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hvnaLOlTit6FcMZ5V5ao-3" value="门诊病历" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="390" width="110" height="110" as="geometry"/>
+          <mxGeometry x="960" y="370" width="110" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="hvnaLOlTit6FcMZ5V5ao-4" value="门诊处方" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="560" width="110" height="105.76" as="geometry"/>
+          <mxGeometry x="960" y="522.12" width="110" height="105.76" as="geometry"/>
         </mxCell>
-        <mxCell id="hvnaLOlTit6FcMZ5V5ao-8" value="LIS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="450" width="100" height="60" as="geometry"/>
+        <mxCell id="hvnaLOlTit6FcMZ5V5ao-8" value="ECG" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="469" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hvnaLOlTit6FcMZ5V5ao-9" value="PACS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="350" width="100" height="60" as="geometry"/>
+          <mxGeometry x="1200" y="369" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="hvnaLOlTit6FcMZ5V5ao-10" value="HIS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="251" width="100" height="60" as="geometry"/>
+        <mxCell id="hvnaLOlTit6FcMZ5V5ao-10" value="LIS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="270" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="hvnaLOlTit6FcMZ5V5ao-11" value="ECG" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="545" width="100" height="60" as="geometry"/>
+        <mxCell id="hvnaLOlTit6FcMZ5V5ao-11" value="收费" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="564" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="hvnaLOlTit6FcMZ5V5ao-12" value="集成平台" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;horizontal=0;fontSize=19;align=center;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1129" y="250" width="51" height="550" as="geometry"/>
+          <mxGeometry x="1120" y="191" width="60" height="739" as="geometry"/>
         </mxCell>
         <mxCell id="hvnaLOlTit6FcMZ5V5ao-14" value="....." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1223" y="740" width="100" height="60" as="geometry"/>
+          <mxGeometry x="1200" y="759" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="hvnaLOlTit6FcMZ5V5ao-15" value="医生门户" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="251" width="110" height="79" as="geometry"/>
+        <mxCell id="hvnaLOlTit6FcMZ5V5ao-15" value="病人索引" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="251" width="110" height="79" as="geometry"/>
         </mxCell>
         <mxCell id="K6ilFlOtGDmG0anySvG6-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;fontSize=14;align=center;" parent="1" vertex="1">
           <mxGeometry x="140" y="281" width="30" height="60" as="geometry"/>
@@ -199,8 +202,11 @@
         <mxCell id="VLDHsEK64QPkxu35O8Kw-8" value="基础门诊服务" style="rounded=1;whiteSpace=wrap;html=1;" parent="0qElFQwZOVu8BeHa5V8r-19" vertex="1">
           <mxGeometry y="46" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="0qElFQwZOVu8BeHa5V8r-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1223" y="650" width="100" height="60" as="geometry"/>
+        <mxCell id="0qElFQwZOVu8BeHa5V8r-20" value="药房" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="669" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qElFQwZOVu8BeHa5V8r-24" value="升级服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="810" width="110" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
